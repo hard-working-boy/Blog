@@ -1,4 +1,4 @@
-#postgresql安装pgvector
+# postgresql安装pgvector
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS vector;
