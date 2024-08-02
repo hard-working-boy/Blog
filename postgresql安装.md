@@ -109,5 +109,21 @@ SHOW config_file;
 (1 row)
 ```
 
+2. 修改配置
+切换到postgres用户，修改文件
+```
+sudo su - postgres
+```
+找到 #listen_addresses = 'localhost' 行并取消注释（删除行开头的 # 字符）,改成listen_addresses = '*'
+
+3. 修改ip访问权限设置
+
+pg_hba.conf 文件，路径在同一个目录下， /var/lib/pgsql/15/data/pg_hba.conf
+
+添加1行配置
+```
+host    all             all             0.0.0.0/0            md5
+```
+
 
    
