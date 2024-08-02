@@ -1,11 +1,11 @@
 # postgresql安装pgvector
 
-1.
+1. 安装pgvector的extension
 ```shell
 sudo yum install pgvector_15
 ```
 
-2.
+2. 安装hstore等extension
 ```shell
 
  sudo yum install postgresql15-contrib
