@@ -1,6 +1,8 @@
 # postgresql CentOS 7 安装以及设置
 
-## 通过yum安装
+
+
+## 通过yum安装，从 RPM上https://www.postgresql.org/download/linux/redhat/ 选择合适的版本的 packages （12+以上）
 
 1. Download PostgreSQL Repository RPM
 
