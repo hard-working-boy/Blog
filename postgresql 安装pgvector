@@ -1,4 +1,8 @@
-# postgresql 安装pgvector
+#postgresql安装pgvector
 
+```sql
+CREATE EXTENSION IF NOT EXISTS vector;
+CREATE EXTENSION IF NOT EXISTS hstore;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
-## postgresql CentOS 7 安装以及设置
+```
